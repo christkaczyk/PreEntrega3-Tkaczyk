@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  },
+  "name": "preentrega3-tkaczyk",
+  "version": "1.0.0",
+  "description": "Pre entrega numero 3 del curso fullstack de CoderHouse",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christkaczyk/PreEntrega3-Tkaczyk.git"
+  },
+  "author": "Chris Tkaczyk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christkaczyk/PreEntrega3-Tkaczyk/issues"
+  },
+  "homepage": "https://github.com/christkaczyk/PreEntrega3-Tkaczyk#readme"
+}
