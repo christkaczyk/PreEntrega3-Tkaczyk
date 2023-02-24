@@ -10,20 +10,141 @@
     <meta name="author" content="Chris Tkaczyk">
     <meta name="copyright" content="VANCRIS">
     <meta name="robots" content="index, follow">
-    <titl>Textil Vancris</title>
-        <link rel="stylesheet" href="css/style.css">
-        <!-- BS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-        <!-- BS -->
+    <title>Textil Vancris</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- BS -->
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/140b35c1d6.js" crossorigin="anonymous"></script>
+    <!-- FONTAWESOME -->
 </head>
 
 <body>
-    <!-- JS -->
+    <!-- <div class="container p-0"> -->
+    <!-- INICIO NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top ">
+        <div class="container p-0">
+            <a class="navbar-brand text-uppercase p-0 m-0" href="#">
+                <img src="assets/img/vancris-logo.png" alt="Logo" width="30" height="24" class="d-inline-block">
+                vancris
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-end">
+                    <li class="nav-item">
+                        <a class="nav-link active text-capitalize" aria-current="page" href="#">inicio</a>
+                    </li>
+                    <li class="nav-item text-capitalize">
+                        <a class="nav-link" href="#">nosotros</a>
+                    </li>
+                    <li class="nav-item text-capitalize">
+                        <a class="nav-link" href="#">muestras</a>
+                    </li>
+                    <li class="nav-item text-capitalize">
+                        <a class="nav-link" href="#">contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- FIN NAVBAR -->
+    <!-- INICIO MAIN -->
+    <main>
+        <h1 class="main__h1 row p-0 m-0 text-center align-items-center justify-content-center ">la última tecnología
+            en
+            estampados textiles</h1>
+    </main>
+    <!-- FIN MAIN -->
+    <!-- INICIO SECTION IMG's -->
+    <section class="row m-0">
+        <div class="col-sm-6 p-0 d-flex align-items-center justify-content-center" id="section__samples">
+            <a href="#" class="a__samples">muestras</a>
+        </div>
+        <div class="col-sm-6 p-0 d-flex align-items-center justify-content-center" id="section__catalogue">
+            <a href="#" class="a__catalogue">catálogo</a>
+        </div>
+    </section>
+    <!-- FIN SECTION IMG's -->
+    <!-- INICIO FOOTER -->
+    <div class="col p-4 text-center flex-column d-flex align-items-center justify-content-center text-uppercase text-dark"
+        id="section__contactimg">
+        <h2 class="h2__gradient">despliega tus ideas con nosotros</h2>
+        <form action="#">
+            <button class="btn btn-outline-primary rounded text-decoration-none text-uppercase fw-bold"
+                id="btn__main">contactate</button>
+        </form>
+    </div>
+    <footer class=" text-center text-lg-start text-white bg-dark">
+        <!-- REDES SOCIALES -->
+        <section class="d-flex justify-content-between p-4 bg-primary">
+            <!-- IZQUIERDA -->
+            <div class="me-5">
+                <span>Conectate con nosotros en nuestras redes sociales:</span>
+            </div>
+            <!-- IZQUIERDA -->
+
+            <!-- DERECHA -->
+            <div>
+                <a href="#" class="text-white me-3 fs-3"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white me-3 fs-3">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <!-- DERECHA -->
+        </section>
+        <!-- REDES SOCIALES -->
+        <!-- LINK SECCIONES  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold">mapa de sitio</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p>
+                            <a href="#!" class="text-white text-uppercase">inicio</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white text-uppercase">sobre nosotros</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white text-uppercase">algunas muestras</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white text-uppercase">catálogo</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold">Contacto</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p><i class="fas fa-home mr-3"></i> Quilmes Oeste, Buenos Aires.</p>
+                        <p><i class="fas fa-envelope mr-3"></i> info@textilvancris.com.ar</p>
+                        <p><i class="fas fa-phone mr-3"></i> + 54 234 567 88</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- LINK SECCIONES  -->
+        <!-- COPYRIGHT -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2023 Copyright
+            <a class="text-white" href="#">VANCRIS</a>
+        </div>
+        <!-- COPYRIGHT -->
+    </footer>
+    <!-- FIN FOOTER -->
+    <!-- INICIO JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
-    <!-- JS -->
+    <!-- FIN JS -->
+    <!-- </div> -->
 </body>
 
 </html>
