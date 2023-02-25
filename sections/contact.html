@@ -27,7 +27,7 @@
     <nav class="navbar navbar-expand-lg bg-body-secondary">
         <div class="container p-0">
             <a class="navbar-brand text-uppercase p-0 m-0 fw-bold" href="../index.html">
-                <img src="/assets/img/vancris-logo.png" alt="Logo" width="30" height="24" class="d-inline-block">
+                <img src="/assets/img/vancris-logo.png" alt="logo" width="30" height="24" class="d-inline-block">
                 vancris
             </a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,28 +54,28 @@
     <!-- FIN NAVBAR -->
     <!-- INICIO MAIN -->
     <main>
-        <div class="container pt-5 pb-5">
-            <div class="mx-auto mb-3 w-75">
-                <label for="exampleFormControlInput1" class="form-label">Email:</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1"
-                    placeholder="Ingrese su dirección de e-mail...">
-            </div>
-            <div class="mx-auto mb-3 w-75">
-                <label for="exampleFormControlTextarea1" class="form-label">Mensaje:</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <label for="inputEmail">Email</label>
+                            <input type="email" class="form-control" id="inputEmail"
+                                placeholder="Ingresa tu correo electrónico">
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="inputMessage">Mensaje</label>
+                            <textarea class="form-control" id="inputMessage" rows="3"
+                                placeholder="Escribe aquí tu mensaje"></textarea>
+                        </div>
+                        <button id="btn_center" class="btn btn-primary mb-5" type="submit">Enviar</button>
+                    </form>
+                </div>
             </div>
         </div>
     </main>
     <!-- FIN MAIN -->
     <!-- INICIO FOOTER -->
-    <div class="col p-4 text-center flex-column d-flex align-items-center justify-content-center text-uppercase text-dark"
-        id="section__contactimg">
-        <h2 class="h2__gradient">despliega tus ideas con nosotros</h2>
-        <form action="/sections/contact.html">
-            <button class="btn btn-outline-primary rounded text-decoration-none text-uppercase fw-bold"
-                id="btn__main">contactate</button>
-        </form>
-    </div>
     <footer class=" text-center text-lg-start text-white bg-dark">
         <!-- REDES SOCIALES -->
         <section class="d-flex justify-content-between p-4 bg-primary">
